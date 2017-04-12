@@ -47,12 +47,16 @@
   font-weight: 600;
   color: hsl(0,0%,10%);
 }
+.bold {
+  font-weight: 600;
+}
 .subdued {
   font-weight: normal;
   color: hsl(0,0%,44%);
 }
+
 .hide-scrollbars {
-  
+
   ::-webkit-scrollbar {
     display: none !important;
     width: 10px !important;
